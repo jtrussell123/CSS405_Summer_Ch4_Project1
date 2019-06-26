@@ -21,12 +21,8 @@ header,footer{
 	color: white;
 	background-color: #1A237E;
 	/*margin: 0em 4em 0.25em 4em;*/
-	max-width: 718px;
+	max-width: 719px;
     margin: auto;
-	/*padding-top: .5em;
-	padding-right: 0em;
-	padding-bottom: .5em;
-	padding-left: .5em;*/
 }
 
 h1{
@@ -64,7 +60,7 @@ h3{
 main{
 	background-color: #3F51B5;
 	/*margin: 0em 4em 0.25em 4em;*/
-	max-width: 718px;
+	max-width: 719px;
     margin: auto;
 }
 
@@ -101,7 +97,7 @@ em{
 /*div contained within a section*/
 section div{
 	border-style: solid;   /*todo:  border is not working*/
-    border-color: #C5CAE9;
+    	border-color: #C5CAE9;
 	border-width: thin;
 }
 
