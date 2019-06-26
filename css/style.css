@@ -1,1 +1,137 @@
- 
+ /*todo:  resize everything to image size
+  */
+
+html{
+	background-color: #E8EAF6;
+}
+
+/*paragraph contained within header*/
+header p{
+	font-family: serif;
+	font-style: italic;
+	font-size: 13px;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: .5em;
+	padding-left: .8em;
+}
+
+header,footer{
+	
+	color: white;
+	background-color: #1A237E;
+	/*margin: 0em 4em 0.25em 4em;*/
+	max-width: 718px;
+    margin: auto;
+	/*padding-top: .5em;
+	padding-right: 0em;
+	padding-bottom: .5em;
+	padding-left: .5em;*/
+}
+
+h1{
+	font-family: sans-serif;
+	font-style: normal;
+	padding-top: .5em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: .5em;
+}
+
+a:hover{
+	color: #00B0FF;
+	background-color:#F50057;
+}
+
+/*todo:  remove inherited padding from header nav*/
+nav{
+	background-color:#3F51B5;
+	background-size:cover;
+}
+
+/*removes newlines from header links */
+li{
+	display:inline;
+}
+
+h3{
+	font-family: sans-serif;
+	font-style: normal;
+	background-color:#7986CB;
+	padding: .5em;
+}
+
+main{
+	background-color: #3F51B5;
+	/*margin: 0em 4em 0.25em 4em;*/
+	max-width: 718px;
+    margin: auto;
+}
+
+section{
+	color: white;
+	font-family: serif;
+	font-style: normal;
+	background-color:white;
+	padding: .5em;
+	
+}
+
+/*paragraph contained within a section*/
+section p{
+	color: black;
+	font: serif;
+	padding-top: 0;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+}
+
+figure{
+	background-color: #C5CAE9;
+}
+
+em{
+	padding-top: .5em;
+	padding-right: 0em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+}
+
+/*div contained within a section*/
+section div{
+	border-style: solid;   /*todo:  border is not working*/
+    border-color: #C5CAE9;
+	border-width: thin;
+}
+
+/*paragraph contained within id=reviews */
+#reviews div{
+	font-size: 15px;
+	padding-top: .5em;
+}
+
+.byline{
+	color:#7986CB;
+	font-style: italic;
+	font-weight: bold;
+}
+
+time{
+	color: #FF80AB;
+}
+
+footer{
+	padding-top: .5em;
+	padding-right: 0em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+}
+
+/*paragraph contained within footer*/
+footer em{
+	font-family: serif;
+	font-style: italic;
+	font-size: 13px;
+}
+
